@@ -443,7 +443,9 @@ extraVolumeMounts: []
 # Dremio Service
 # The dremio-client service exposes the service for access outside of the Kubernetes cluster.
 service:
+  enable: true
   type: LoadBalancer
+
 
   # These values, when defined and not empty, override the provided shared annotations and labels.
   # Uncomment only if you are trying to override the chart's shared values.
@@ -464,6 +466,14 @@ service:
   # line and set the IP to provide the static IP used for the load balancer.
   # Note: The service type must be set to LoadBalancer for this value to be used.
   #loadBalancerIP: 0.0.0.0
+ 
+ingress:
+  enable: false
+
+  # These values, when defined or empty, override the provided shared
+  # annotations and labels.
+  # annotations: {}
+  # labels: {}
 
 # To use custom storage class, uncomment below.
 # Otherwise the default storage class configured for your K8s cluster is used.

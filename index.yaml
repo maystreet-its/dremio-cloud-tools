@@ -2,6 +2,17 @@ apiVersion: v1
 entries:
   dremio:
   - apiVersion: v1
+    created: "2022-02-10T19:20:39.144524089Z"
+    digest: b7fc8e6701dcc95b8af502e18ce71141bec74d95af2351dd33430ae1b1bd6366
+    home: https://www.dremio.com/
+    keywords:
+    - dremio
+    - data
+    name: dremio
+    urls:
+    - https://github.com/maystreet-its/dremio-cloud-tools/releases/download/dremio-2.1.0/dremio-2.1.0.tgz
+    version: 2.1.0
+  - apiVersion: v1
     created: "2021-09-14T20:36:19.431597545Z"
     digest: be3091406c347179d7c4562465394546124a7d1e0a2367398fa579876cecd2fa
     home: https://www.dremio.com/
@@ -23,4 +34,4 @@ entries:
     urls:
     - https://github.com/maystreet-its/dremio-cloud-tools/releases/download/dremio-0.1.0/dremio-0.1.0.tgz
     version: 0.1.0
-generated: "2021-09-14T20:36:19.431606045Z"
+generated: "2022-02-10T19:20:39.144688591Z"
